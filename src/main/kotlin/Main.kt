@@ -1,7 +1,10 @@
 fun main(){
 println(volume(5.0 , 3.1459))
     allnums<Int>(2, 10.0,7)
-    println(allnums.sum)
+//    println(allnums.sum)
+    palindrome("madam")
+
+
 }
 
 fun givenStr(sentence:String) {
@@ -13,23 +16,23 @@ fun givenStr(sentence:String) {
 }
 
 fun <Array> allnums (num1: Int, num2 :Double, num3 :Int) {
-    return (allnums<Int>(allnums.toSum))
+//    return (allnums<Int>(allnums.toSum))
 
 
 }
 fun volume(radius: Double, pie: Double): Double {
-var volume= 4/3*pie*radius
+var volume= 4/3*pie*radius* radius * radius
     return(volume)
 
 }
 
 fun palindrome( word:String): Boolean{
-    var words= <ArrayOf> ("madam","wow","kayak")
-    println(True) {
-        if word is palidrome
+    var words=  ("madam")
+//    println(True) {
+//        if word is palidrome
     }
-    else{
-        println(false)
-    }
+    Else{
+//        println(false)
+    }/
 }
 
