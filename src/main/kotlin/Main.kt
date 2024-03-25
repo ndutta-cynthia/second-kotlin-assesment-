@@ -1,7 +1,7 @@
 fun main(){
 println(volume(5.0 , 3.1459))
     allnums<Int>(2, 10.0,7)
-//    println(allnums.sum)
+   // println(allnums.sum)
     palindrome("madam")
 
 
@@ -26,13 +26,15 @@ var volume= 4/3*pie*radius* radius * radius
 
 }
 
-fun palindrome( word:String): Boolean{
+fun palindrome( word:String) {
     var words=  ("madam")
-//    println(True) {
-//        if word is palidrome
+
+        if (word==words){
+            println(true)
+        }
+
+    else{
+        println(false)
     }
-    Else{
-//        println(false)
-    }/
 }
 
